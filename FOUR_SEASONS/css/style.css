@@ -1,0 +1,1177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #283618;
+    background-color: #fefae0;
+    line-height: 1.6;
+}
+
+
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.navbar .nav-link {
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar .signup-btn {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar .signup-btn:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #283618;
+    color: #fefae0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+.hero .btn-primary {
+    background-color: #dda15e;
+    color: #283618;
+}
+
+.hero .btn-primary:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+.hero .btn-secondary {
+    background-color: #606c38;
+    color: #fefae0;
+    border: 2px solid #dda15e;
+}
+
+.hero .btn-secondary:hover {
+    background-color: #283618;
+    border-color: #bc6c25;
+}
+
+/* About Section */
+.about {
+    background-color: #fefae0;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #606c38;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #283618;
+}
+
+/* Footer */
+footer {
+    background-color: #606c38;
+    color: #fefae0;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*login & sign up*/
+
+.auth-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #fefae0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-container h2 {
+    color: #606c38;
+    margin-bottom: 1.5rem;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #283618;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #dda15e;
+    color: #283618;
+}
+
+.btn-primary:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+.link {
+    color: #606c38;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Home Page Styles */
+.home-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    padding: 1rem 2rem;
+}
+
+.navbar-home .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.navbar-home a {
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar-home .logout-btn {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar-home .logout-btn:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+/* Hero Section */
+.hero-home {
+    background-color: #283618;
+    color: #fefae0;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero-home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-home-content p {
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+.features-home {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+    gap: 1.5rem;
+}
+
+.feature-home {
+    background-color: #dda15e;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.feature-home h2 {
+    font-size: 1.5rem;
+    color: #283618;
+    margin-bottom: 1rem;
+}
+
+.feature-home p {
+    color: #283618;
+    margin-bottom: 1rem;
+}
+
+.feature-home .btn {
+    background-color: #606c38;
+    color: #fefae0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.feature-home .btn:hover {
+    background-color: #bc6c25;
+}
+
+
+
+/* Profile Page Styles */
+.profile-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    padding: 1rem 2rem;
+}
+
+.navbar-profile .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.navbar-profile a {
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar-profile .logout-btn {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar-profile .logout-btn:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+}
+
+.profile-container {
+    background-color: #dda15e;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-container h1 {
+    margin-bottom: 1.5rem;
+    color: #283618;
+}
+
+.profile-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.profile-form label {
+    display: block;
+    font-weight: bold;
+    color: #283618;
+    margin-bottom: 0.5rem;
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-primary-profile {
+    background-color: #606c38;
+    color: #fefae0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.btn-primary-profile:hover {
+    background-color: #283618;
+    color: #fefae0;
+}
+
+
+
+
+.success-message {
+    color: #606c38;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.error-message {
+    color: #bc6c25;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/*blogs*/
+
+
+
+/* Navbar */
+.navbar-blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    padding: 1rem 2rem;
+}
+
+.navbar-blogs .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.navbar-blogs a {
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar-blogs .logout-btn {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar-blogs .logout-btn:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+
+
+.blogs-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add Blog Form */
+.add-blog {
+    padding: 2rem;
+    text-align: center;
+}
+
+.blog-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #dda15e;
+    border-radius: 10px;
+}
+
+.blog-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.btn-primary-blog {
+    background-color: #606c38;
+    color: #fefae0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.btn-primary-blog:hover {
+    background-color: #283618;
+    color: #fefae0;
+}
+
+.blog-form input,
+.blog-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Blog List */
+.view-blogs {
+    padding: 2rem;
+    text-align: center;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+
+
+/* Blog Actions Buttons */
+.blog-actions .btn {
+    display: inline-block;
+    font-size: 1.5rem; /* Icon size */
+    padding: 0.5rem;
+    color: #fefae0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.blog-actions .btn:hover {
+    transform: scale(1.1); /* Slight enlarge on hover */
+}
+
+.btn-edit-blog {
+    background-color: #606c38;
+}
+
+.btn-edit-blog:hover {
+    background-color: #4b5a2c;
+}
+
+.btn-delete-blog {
+    background-color: #dda15e;
+}
+
+.btn-delete-blog:hover {
+    background-color: #c08f4e;
+}
+
+/* Your Blogs Section */
+.your-blogs {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fefae0;
+}
+
+.your-blogs h1 {
+    margin-bottom: 2rem;
+    color: #283618;
+}
+
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.blog-card {
+    background-color: #dda15e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card-header {
+    padding: 1.5rem;
+}
+
+.blog-card-header h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #283618;
+}
+
+.blog-card-header .blog-date {
+    font-size: 0.9rem;
+    color: #4b4b4b;
+    font-style: italic;
+}
+
+.blog-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.blog-card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #606c38;
+}
+
+.blog-card-actions .btn-edit,
+.blog-card-actions .btn-delete {
+    color: #fefae0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.blog-card-actions .btn-edit:hover {
+    color: #dda15e;
+    transform: scale(1.1);
+}
+
+.blog-card-actions .btn-delete:hover {
+    color: #bc6c25;
+    transform: scale(1.1);
+}
+
+
+/* Blog Details Page */
+.blog-details {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-details .blog-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.blog-details .blog-content {
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 1.6;
+}
+
+
+.edit-blog-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+}
+
+.edit-blog {
+    max-width: 600px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #dda15e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.edit-blog h1 {
+    margin-bottom: 1.5rem;
+    color: #283618;
+}
+
+.blog-edit-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.blog-edit-form label {
+    font-weight: bold;
+    color: #283618;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.blog-edit-form input,
+.blog-edit-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.blog-edit-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary-blog-edit {
+    background-color: #606c38;
+    color: #fefae0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-blog-edit:hover {
+    background-color: #283618;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*expenses*/
+
+
+
+
+.expense-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add Expense Form */
+.add-expense {
+    padding: 2rem;
+    text-align: center;
+}
+
+.expense-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #dda15e;
+    border-radius: 10px;
+}
+
+.expense-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.expense-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Expense Table */
+.view-expenses {
+    padding: 2rem;
+    text-align: center;
+}
+
+.expense-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #dda15e;
+}
+
+.expense-table th, .expense-table td {
+    border: 1px solid #606c38;
+    padding: 1rem;
+    text-align: center;
+}
+
+.expense-table th {
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+.expense-table td {
+    background-color: #fefae0;
+}
+
+
+
+
+
+/* Navbar */
+.navbar-expense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    padding: 1rem 2rem;
+}
+
+.navbar-expense .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.navbar-expense a {
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar-expense .logout-btn {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar-expense .logout-btn:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+/* Add Folder Page Layout */
+.add-folder-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+    padding: 2rem 1rem;
+    min-height: 100vh; /* Ensures the page takes up the full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-folder h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #283618;
+    text-align: center;
+
+}
+
+/* Add Folder Form */
+.folder-form {
+    max-width: 500px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #dda15e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+
+
+.folder-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+
+
+}
+
+.folder-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #283618;
+    align-items: center;
+
+
+}
+
+.folder-form input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.folder-form button {
+    
+    background-color: #606c38;
+    color: #fefae0;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-items: center;
+
+}
+
+.folder-form button:hover {
+    background-color: #283618;
+    transform: scale(1.05);
+}
+
+/* Folder List Section */
+.folder-list {
+    padding: 2rem;
+    text-align: center;
+}
+
+.folder-list h1 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #283618;
+}
+
+/* Folder Items (Grid Layout) */
+.folder-items {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 1.5rem;
+}
+
+/* Single Folder Item */
+.folder-item {
+    background-color: #dda15e;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Folder Item */
+.folder-item:hover {
+    
+        background-color: #4b5a2c;
+        transform: translateY(-5px);
+
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Folder Link */
+.folder-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-align: left;
+}
+
+/* Folder Title */
+.folder-link h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #283618;
+}
+
+/* Folder Description */
+.folder-link p {
+    font-size: 1rem;
+    color: #4b4b4b;
+}
+
+/* Hover Effect for Folder Title */
+.folder-link:hover h2 {
+    color: #dda15e;
+    text-decoration: underline;
+}
+
+/* Folder Date */
+.folder-link .visit-date {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #606c38;
+}
+
+
+
+
+
+
+
+
+
+/*todos*/
+
+
+.todos-page {
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Add To-Do Form */
+.add-todo {
+    padding: 2rem;
+    text-align: center;
+}
+
+.todo-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #dda15e;
+    border-radius: 10px;
+}
+
+.todo-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.todo-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #606c38;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-primary-todo {
+    background-color: #606c38;
+    color: #fefae0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.btn-primary-todo:hover {
+    background-color: #283618;
+    color: #fefae0;
+}
+
+/* To-Do List */
+.view-todos {
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    background-color: #dda15e;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item.completed {
+    background-color: #606c38;
+    color: #fefae0;
+    text-decoration: line-through;
+}
+
+.todo-item.not_completed {
+    background-color: #bc6c25;
+    color: #fefae0;
+    text-decoration: line-through;
+}
+
+.todo-actions .btn {
+    margin-left: 0.5rem;
+}
+
+/* Navbar */
+.navbar-todos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606c38;
+    padding: 1rem 2rem;
+}
+
+.navbar-todos .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.navbar-todos a {
+    color: #fefae0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar-todos .logout-btn {
+    background-color: #dda15e;
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar-todos .logout-btn:hover {
+    background-color: #bc6c25;
+    color: #fefae0;
+}
+
+/* To-Do Actions Buttons */
+.todo-actions .btn {
+    display: inline-block;
+    font-size: 1rem; /* Icon size */
+    padding: 0.5rem;
+    color: #fefae0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.todo-actions .btn:hover {
+    transform: scale(1.1); /* Slight enlarge on hover */
+}
+
+.btn-complete {
+    background-color: #606c38;
+}
+
+.btn-complete:hover {
+    background-color: #4b5a2c;
+}
+
+.btn-not-complete {
+    background-color: #bc6c25;
+}
+
+.btn-not-complete:hover {
+    background-color: #a55820;
+}
+
+.btn-danger-todo {
+    background-color: #dda15e;
+}
+
+.btn-danger-todo:hover {
+    background-color: #c08f4e;
+}
+
